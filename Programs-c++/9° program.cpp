@@ -20,5 +20,7 @@ int main()
 
     cout << "\n the number: " << a << " squared is: " << c;
     cout << "\n the number: " << a << " cubed is: " << q;
+    
     getchar();
+    return 0;
 }

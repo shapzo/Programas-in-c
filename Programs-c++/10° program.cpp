@@ -41,4 +41,5 @@ int main()
     root(a);
     
     getchar();
+    return 0;
 }

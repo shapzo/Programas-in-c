@@ -33,6 +33,6 @@ int main()
     pointerarray -= 5;
     cout << "\nThe value is: " << *pointerarray;
 
-    return 0;
     getchar();
+    return 0;
 }

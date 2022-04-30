@@ -40,13 +40,17 @@ void divicion(float x, float y)
 int main()
 {
     float a, b;
+    
     cout << "Enter a number: ";
     cin >> a;
     cout << "Enter a number: ";
     cin >> b;
+
     addition(a, b);
     subtraction(a, b);
     mult(a, b);
     divicion(a, b);
+    
     getchar();
+    return 0;
 }

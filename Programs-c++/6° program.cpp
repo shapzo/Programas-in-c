@@ -24,4 +24,6 @@ int main()
     cout << "\nEmployee's name: " << x;
     cout << "\nWorker salary: " << j;
 
+    getchar();
+    return 0;
 }

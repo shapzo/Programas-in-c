@@ -1,6 +1,6 @@
 /******************
  *
- * Program with pointers: 
+ * Sort the numbers to print the figure on the screen: 3 7 4 17 93
  *
  * ****************/
 
@@ -24,6 +24,6 @@ int main()
     pointerarray += 4;
     cout << "\nThe value is: " << *pointerarray;
 
-    return 0;
     getchar();
+    return 0;
 }

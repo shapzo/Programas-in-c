@@ -1,6 +1,6 @@
 /******************
  *
- * Programa que convierte temperaturas
+ * Program that converts temperatures
  *
  * ****************/
 

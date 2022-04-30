@@ -23,6 +23,7 @@ and to run them from the terminal emulator is with:
 - Program 5: Compare 3 numbers, if they are greater than or equal
 - Program 6: Increase 8% of a worker's salary
 - Program 7: A worker's salary is deducted from 3 or 9 percent of his salary depending on how much he earns
+- Program 8: Program that converts temperatures (for windows)
 - Program 9: Calculate the square and cube of 2 numbers
 
 **programs with functions**
@@ -32,10 +33,20 @@ and to run them from the terminal emulator is with:
 
 **programs with pointers**
 
-- Program 12:
-- Program 13:
-- Program 14:
-- Program 15:
+In these programs it is about accommodating the numbers to a desired figure.
+
+- Program 12: Sort the numbers to print the figure on the screen: (3, 7, 4, 17, 93)
+- Program 13: Sort the numbers to print the figure on the screen: (5, 15, 18, 20, 24, 42, 46, 50, 98, 100)
+- Program 14: Sort the numbers to print the figure on the screen: (0, 10, 20, 30, 40, 70, 90)
+- Program 15: Sort the numbers to print the figure on the screen: (18, 100, 42, 50, 5, 20, 42)
+- Program 16: Sort the numbers to print the figure on the screen: (30, 1, 5, 5, 8, 17, 6, 40, 0, 10, 26, 40, 9)
+
+In these programs it is about accommodating the letters to a desired word
+
+- Program 17: Order the letters to print the word on the screen: popocatepetl 🌋
+- Program 18: Order the letters to print the word on the screen: Estacionamiento 
+- Program 19: Order the letters to print the word on the screen: Desoxirribonucleico
+- Program 20: Order the letters to print the word on the screen: Programacion avanzada
 
 ## For windows environments
 
@@ -46,8 +57,12 @@ If you have problems in windows add the following libraries to the programs:
     #include <conio.h>
     #include <windows.h>
 ```
+also in pointer programs, uncomment some of the lines so you can better see how the programs work, for example:
 
-- Program 8: Programa que convierte temperaturas 
+```bash 
+	uncomment if you are in windows, so that the cmd or powershell console changes color XD
+    system("color 3b");
+```
 
 ## Author
 

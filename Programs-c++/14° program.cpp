@@ -27,6 +27,6 @@ int main()
     pointerarray += 6;
     cout << "\nThe value is: " << *pointerarray;
 
-    return 0;
     getchar();
+    return 0;
 }
