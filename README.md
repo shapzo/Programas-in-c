@@ -1,4 +1,3 @@
-# Programas-in-c
+# Programas in C and C ++
 
-Repository with programs in c and c++
-
+This is a repository with programs written in c and c++ language
