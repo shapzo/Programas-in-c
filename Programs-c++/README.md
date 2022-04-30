@@ -11,7 +11,7 @@ and to run them from the terminal emulator is with:
     ./1
 ```
 
-## Programas que puedes correr en windows asi como linux
+## Programs you can run on Windows as well as Linux
 
 - Program 1: Printing of numbers
 - Program 2: Program that calculates the average of 3 grades
