@@ -60,7 +60,7 @@ If you have problems in windows add the following libraries to the programs:
 also in pointer programs, uncomment some of the lines so you can better see how the programs work, for example:
 
 ```bash 
-	uncomment if you are in windows, so that the cmd or powershell console changes color XD
+    uncomment if you are in windows, so that the cmd or powershell console changes color XD
     system("color 3b");
 ```
 
