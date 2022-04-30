@@ -1,8 +1,7 @@
 # Programs in c++
 
 In this repository there are a series of programs in c++ language, which I use to learn this language and I hope they serve you.
-
-Compiling programs in languaje c++ **`g++ executable -o prohgram.cpp`** and run **`./executable`**, example:
+Compiling programs in languaje c++ **`g++ executable -o program.cpp`** and run **`./executable`**, example:
 
 ![App Screenshot](https://github.com/shapzo/Programs-in-c/blob/main/Screenshot/Program%20in%20c++.png?raw=true)
 
@@ -54,8 +53,8 @@ Programs that run in windows environments.
 
 If you have problems in windows add the following libraries to the programs:
 ```bash
-    #include <conio.h>
-    #include <windows.h>
+    include <conio.h>
+    include <windows.h>
 ```
 also in pointer programs, uncomment some of the lines so you can better see how the programs work, for example:
 
