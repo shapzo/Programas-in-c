@@ -1,3 +1,9 @@
+/******************
+ *
+ * Program that opens a file, and calculates the cos sine and adds the output to a new file
+ *
+ * ****************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

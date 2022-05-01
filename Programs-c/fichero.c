@@ -1,4 +1,4 @@
-//programa 1 de la practica de tipos de sistemas operativos
+// programa 1 de la practica de tipos de sistemas operativos
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
