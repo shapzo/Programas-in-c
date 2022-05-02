@@ -25,15 +25,15 @@ main()
   {
     system("cls");
     gotoxy(25, 4);
-    cout << "farenheit a celsius";
+    cout << "1.- Fahrenheit to Celsius";
     gotoxy(25, 6);
-    cout << "celcius a farenheit ";
+    cout << "2.- Celsius to Fahrenheit";
     gotoxy(25, 8);
-    cout << "kelvin a celcius ";
+    cout << "3.- kelviK to Celsius ";
     gotoxy(25, 10);
-    cout << "celcius a kelvin";
+    cout << "4.- Celsius to Kelvin";
     gotoxy(25, 12);
-    cout << "salir ";
+    cout << "5.- Exit";
     cin >> op;
     switch (op)
     {
@@ -58,11 +58,11 @@ void farenheit_a_celsius()
   float c, f, g;
   system("cls");
   gotoxy(30, 4);
-  cout << "ingresa una temperatura";
+  cout << "Enter a temperature";
   cin >> c;
   g = c - 32 / 1.8;
   gotoxy(25, 10);
-  cout << "la temperatura es: " << g;
+  cout << "The temperature is: " << g;
   getch();
 }
 
@@ -71,11 +71,11 @@ void celcius_a_farenheit()
   float c, f, g;
   system("cls");
   gotoxy(30, 4);
-  cout << "ingresa una temperatura";
+  cout << "Enter a temperature";
   cin >> c;
   g = (c * 1.8) + 32;
   gotoxy(25, 10);
-  cout << "la temperatura es: " << g;
+  cout << "The temperature is: " << g;
   getch();
 }
 
@@ -84,24 +84,24 @@ void kelvin_a_celcius()
   float c, k, g;
   system("cls");
   gotoxy(30, 4);
-  cout << "ingresa una temperatura";
+  cout << "Enter a temperature";
   cin >> k;
   c = k - 273, 15;
   gotoxy(25, 10);
-  cout << "la temperatura es: " << g;
+  cout << "The temperature is: " << g;
   getch();
 }
 
-void_farenheit_a_celsius()
+void farenheit_a_celsius()
 {
   float c, k, g;
   system("cls");
   gotoxy(30, 4);
-  cout << "ingresa una temperatura";
+  cout << "Enter a temperature";
   cin >> c;
   k = c + 273.15;
   gotoxy(25, 10);
-  cout << "la temperatura es: " << g;
+  cout << "The temperature is: " << g;
   getch();
 }
 
@@ -110,10 +110,10 @@ void celcius_a_kelvin()
   float c, f, g;
   system("cls");
   gotoxy(30, 4);
-  cout << "ingresa una temperatura";
+  cout << "Enter a temperature";
   cin >> c;
   g = (f - 32) / 1.8;
   gotoxy(25, 10);
-  cout << "la temperatura es: " << g;
+  cout << "The temperature is: " << g;
   getch();
 }
