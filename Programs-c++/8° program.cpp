@@ -33,7 +33,7 @@ main()
     gotoxy(25, 10);
     cout << "4.- Celsius to Kelvin";
     gotoxy(25, 12);
-    cout << "5.- Exit";
+    cout << "5.- Exit\n";
     cin >> op;
     switch (op)
     {
@@ -50,7 +50,7 @@ main()
       celcius_a_kelvin();
       break;
     }
-  } while (op != 4);
+  } while (op != 5);
 }
 
 void farenheit_a_celsius()
@@ -92,7 +92,7 @@ void kelvin_a_celcius()
   getch();
 }
 
-void farenheit_a_celsius()
+void_farenheit_a_celsius()
 {
   float c, k, g;
   system("cls");
