@@ -48,6 +48,19 @@ In these programs it is about accommodating the letters to a desired word
 - Program 20: Order the letters to print the word on the screen: Programacion avanzada4
 
 - Program 21: aki me kede, falta comentar k ase y esas cosas
+- Program 22:
+- Program 23:
+- Program 24:
+- Program 25:
+- Program 26:
+- Program 27:
+- Program 28:
+- Program 29:
+- Program 30:
+- Program 31:
+- Program 32:
+- Program 33:
+- Program 34:
 
 ## For windows environments
 
