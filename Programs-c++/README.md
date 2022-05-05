@@ -47,8 +47,8 @@ In these programs it is about accommodating the letters to a desired word
 - Program 19: Order the letters to print the word on the screen: Desoxirribonucleico
 - Program 20: Order the letters to print the word on the screen: Programacion avanzada4
 
-- Program 21: aki me kede, falta comentar k ase y esas cosas
-- Program 22:
+- Program 21: Program for trigonometric functions, sine, cosine and tangent.
+- Program 22: Program that calculates the area of a circle, trapezoid and ellipse.
 - Program 23:
 - Program 24:
 - Program 25:

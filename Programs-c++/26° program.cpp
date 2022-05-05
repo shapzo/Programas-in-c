@@ -7,6 +7,7 @@
 #include <math.h>
 #include <windows.h>
 using namespace std;
+
 void gotoxy(int x, int y)
 {
     HANDLE hcon = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -15,6 +16,7 @@ void gotoxy(int x, int y)
     dwPos.Y = y;
     SetConsoleCursorPosition(hcon, dwPos);
 }
+
 int main()
 {
 
@@ -25,19 +27,14 @@ int main()
 
     for (w = 1; w <= x; w++)
     {
-
         for (n = 1; n <= x - w; n++)
         {
-
             cout << " ";
         }
         for (n = 1; n <= 2 * w - 1; n++)
         {
-
             cout << "$";
         }
-
         cout << "\n";
     }
-
-} // fin del main
+}

@@ -1,6 +1,8 @@
-// Programa 13
-//  Volumenes
-//  Rodrigo Palma Garcia
+/******************
+ *
+ * Program that calculates the area of a circle, trapezoid and ellipse
+ *
+ * ****************/
 
 #include <iostream>
 #include <conio.h>
@@ -8,6 +10,7 @@
 #include <windows.h>
 #define pi 3.1416
 using namespace std;
+
 void gotoxy(int x, int y)
 {
 	HANDLE hcon;
@@ -17,6 +20,7 @@ void gotoxy(int x, int y)
 	dwPos.Y = y;
 	SetConsoleCursorPosition(hcon, dwPos);
 }
+
 main()
 {
 	float r, h, ci, co, es, oc, a, r2, r3;
@@ -28,7 +32,7 @@ main()
 		r2 = 0;
 		h = 0;
 		gotoxy(25, 2);
-		cout << "Volumenes";
+		cout << "Volumes";
 		gotoxy(20, 8);
 		cout << "1.-Cilindro";
 		gotoxy(20, 10);
@@ -38,9 +42,9 @@ main()
 		gotoxy(20, 14);
 		cout << "4.-Octaedro";
 		gotoxy(20, 16);
-		cout << "5.-Salir";
+		cout << "5.-Exit";
 		gotoxy(23, 19);
-		cout << "Teclee el numero con la opcion deseada:";
+		cout << "Type the number with the desired option:";
 		cin >> op;
 		switch (op)
 		{
@@ -58,7 +62,7 @@ main()
 			gotoxy(23, 15);
 			cout << "El volument del cilindro con radio " << r << " es:" << (pi * r2 * h);
 			gotoxy(25, 19);
-			cout << "Pulse una tecla para regresar al menu";
+			cout << "Press a key to return to the menu";
 			getch();
 			break;
 		case 2:
@@ -75,7 +79,7 @@ main()
 			gotoxy(23, 15);
 			cout << "El volumen del cono es:" << ((pi * r2 * h) / 3);
 			gotoxy(25, 19);
-			cout << "Pulse una tecla para regresar al menu";
+			cout << "Press a key to return to the menu";
 			getch();
 			break;
 		case 3:
@@ -89,7 +93,7 @@ main()
 			gotoxy(23, 15);
 			cout << "El volumen de la esfera es:" << ((4 * pi * r3) / 3);
 			gotoxy(25, 19);
-			cout << "Pulse una tecla para regresar al menu";
+			cout << "Press a key to return to the menu";
 			getch();
 			break;
 		case 4:
@@ -104,7 +108,7 @@ main()
 			gotoxy(23, 15);
 			cout << "El volumen del octaedro es:" << ((oc / 3) * es);
 			gotoxy(25, 19);
-			cout << "Pulse una tecla para regresar al menu";
+			cout << "Press a key to return to the menu";
 			getch();
 			break;
 		}
