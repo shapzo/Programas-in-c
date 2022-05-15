@@ -1,6 +1,0 @@
-Para compilar el programa:
-  gcc programa_openmp.c -o programa_openmp -fopenmp
-Para ejecutar:
-OMP_NUM_THREADS=4 ./programa_openmp
-
--> donde el numero 4 hace alucion al numero de hilos a usar.
