@@ -1,4 +1,4 @@
-/******************
+/* *****************
  *
  * Program of addition, subtraction and module of memory vectors
  *
