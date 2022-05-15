@@ -27,14 +27,14 @@ int d;
 int main()
 {
 
-   printf("ingresa el nombre del rchivo: ");
+   printf("Enter the file name: ");
    scanf(" %s", NombreFichero);
 
    archivoop = fopen(NombreFichero, "r");
 
    if (archivoop == NULL)
 
-      printf("Error abriendo el fichero");
+      printf("Error");
 
    while (feof(archivoop) == 0)
 
@@ -45,42 +45,39 @@ int main()
 
       if ((i % 2 == 0))
       {
-         /*para los numeros pares*/
+         /*for even numbers*/
          o = exp(q);
          p = cos(q);
          r = (o * p) / q;
       }
       else
       {
-         /*para los numeros impares*/
+         /*for odd numbers*/
          x = exp(q);
          y = sin(q);
          z = (x * y) / q;
       }
       g[i] = r;
       m[i] = z;
-     
 
       i++;
    }
 
    i = i - 1;
 
-
-   archivoout = fopen("salida.txt", "w+");
-   fprintf(archivoout, "los numeros pares e impares son; los cosenos son: los cosenos son:\n");
+   archivoout = fopen("output.txt", "w+r");
+   fprintf(archivoout, "even and odd numbers are:   cosines are:    cosines are: \n");
    for (j = 0; j < i; j++)
    {
-      fprintf(archivoout, "%.2f \n ", w[j]);
-   }
-
-   for (j = 0; j < i; j++)
-   {
-      fprintf(archivoout, "%.2f \n \t ", g[j]);
+      fprintf(archivoout, "%.2f \n\t ", w[j]);
    }
    for (j = 0; j < i; j++)
    {
-      fprintf(archivoout, "%.2f \n \t \t", m[j]);
+      fprintf(archivoout, "%.2f \n\t\t\t\t\t ", g[j]);
+   }
+   for (j = 0; j < i; j++)
+   {
+      fprintf(archivoout, "%.2f \n\t\t\t\t\t\t\t", m[j]);
    }
 
    fclose(archivoop);
