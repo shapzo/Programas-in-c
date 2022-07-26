@@ -1,7 +1,3 @@
-// programa 21
-// seno, coseno, tangente
-// Rodrigo Palma Garcia
-
 #include <iostream>
 #include <conio.h>
 #include <windows.h>

@@ -1,8 +1,3 @@
-
-// Program 14
-// Perimetro y area, ecuacion
-// Rodrigo Palma Garcia
-
 #include <iostream>
 #include <conio.h>
 #include <math.h>
@@ -14,56 +9,56 @@ main()
 	do
 	{
 		system("cls");
-		cout << "Area y perimetro del triangulo, ecuacion" << endl;
+		cout << "Area and perimeter of the triangle, equation" << endl;
 		cout << "1.Area" << endl;
 		cout << "2.Perimetro" << endl;
 		cout << "3.Ecuacion" << endl;
-		cout << "4.Salir" << endl;
-		cout << "Teclea la opcion" << endl;
+		cout << "4.Exit" << endl;
+		cout << "Type the option" << endl;
 		cin >> op;
 		switch (op)
 		{
 		case 1:
 			system("cls");
 			cout << "Area" << endl;
-			cout << "Teclea el valor del primer lado" << endl;
+			cout << "Type the value of the first side" << endl;
 			cin >> a;
-			cout << "Teclea el valor del segundo lado" << endl;
+			cout << "Type the value of the second side" << endl;
 			cin >> b;
-			cout << "Teclea el valor del tercer lado" << endl;
+			cout << "Type the value of the third side" << endl;
 			cin >> c;
 			p = (a + b + c) / 2;
-			cout << "El area del triangulo es:" << sqrt(p * (p - a) * (p - b) * (p - c)) << endl;
-			cout << "Pulsa una tecla para salir" << endl;
+			cout << "The area of the triangle is:" << sqrt(p * (p - a) * (p - b) * (p - c)) << endl;
+			cout << "Press a key to exit" << endl;
 			getch();
 			break;
 		case 2:
 			system("cls");
-			cout << "Perimetro" << endl;
-			cout << "Teclea el valor del primer lado" << endl;
+			cout << "Perimeter" << endl;
+			cout << "Type the value of the first side" << endl;
 			cin >> a;
-			cout << "Teclea el valor del segundo lado" << endl;
+			cout << "Type the value of the second side" << endl;
 			cin >> b;
-			cout << "Teclea el valor del tercer lado" << endl;
+			cout << "Type the value of the third side" << endl;
 			cin >> c;
-			cout << "El perimetro es:" << (a + b + c) / 2 << endl;
-			cout << "pulsa una tecla para salir" << endl;
+			cout << "The perimeter is:" << (a + b + c) / 2 << endl;
+			cout << "Press a key to exit" << endl;
 			getch();
 			break;
 		case 3:
 			system("cis");
-			cout << "Evaluar la ecuacion" << endl;
-			cout << "Teclea el valor de a" << endl;
+			cout << "Evaluate the equation" << endl;
+			cout << "Type the value of (a)" << endl;
 			cin >> a;
-			cout << "Teclea el valor de b" << endl;
+			cout << "Type the value of (b)" << endl;
 			cin >> b;
-			cout << "Teclea el valor de c" << endl;
+			cout << "Type the value of (c)" << endl;
 			cin >> c;
-			cout << "El valor de x1 es:" << (-b - sqrt(pow(b, 2) - 4 * a * c)) / 2 * a << endl;
-			cout << "El valor de x2 es:" << (-b + sqrt(pow(b, 2) - 4 * a * c)) / 2 * a << endl;
-			cout << "Pulsa una tecla para salir" << endl;
+			cout << "The value of x1 is:" << (-b - sqrt(pow(b, 2) - 4 * a * c)) / 2 * a << endl;
+			cout << "The value of x2 is:" << (-b + sqrt(pow(b, 2) - 4 * a * c)) / 2 * a << endl;
+			cout << "Press a key to exit" << endl;
 			getch();
 			break;
-		} // Fin del switch
+		}
 	} while (op != 4);
-} // Fin del main
+}

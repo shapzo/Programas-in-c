@@ -41,12 +41,12 @@ main()
 	system("color 5b");
 	int lista[13] = {1, 4, 11, 15, 18, 55, 30, 21, 42, 39, 44, 98, 2};
 	cout << endl
-		 << "lista original \n"
+		 << "Original list \n"
 		 << endl;
 	imprimirlista(lista, 13);
 	ordinsercion(lista, 13);
 	cout << endl
-		 << "lista ordenada" << endl;
+		 << "Ordered list" << endl;
 	imprimirlista(lista, 13);
 	getch();
 }

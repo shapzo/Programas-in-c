@@ -1,7 +1,3 @@
-// programa 23
-// Triangulo
-// Rodrigo Palma Garcia
-
 #include <iostream>
 #include <conio.h>
 #include <math.h>
@@ -22,7 +18,7 @@ int main()
 
     int w, n, x;
     gotoxy(20, 1);
-    cout << "ingrese la cantidad de lineas deseadas:";
+    cout << "Enter the number of lines desired:";
     cin >> x;
 
     for (w = 1; w <= x; w++)

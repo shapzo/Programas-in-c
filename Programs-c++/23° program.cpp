@@ -1,6 +1,6 @@
 /******************
  *
- * Program that calculates the area of a circle, trapezoid and ellipse
+ * Program that calculates the volumes of geometric figures
  *
  * ****************/
 
@@ -34,13 +34,13 @@ main()
 		gotoxy(25, 2);
 		cout << "Volumes";
 		gotoxy(20, 8);
-		cout << "1.-Cilindro";
+		cout << "1.-Cylinder";
 		gotoxy(20, 10);
-		cout << "2.-Cono";
+		cout << "2.-Cone";
 		gotoxy(20, 12);
-		cout << "3.-Esfera";
+		cout << "3.-Sphere";
 		gotoxy(20, 14);
-		cout << "4.-Octaedro";
+		cout << "4.-Octahedron";
 		gotoxy(20, 16);
 		cout << "5.-Exit";
 		gotoxy(23, 19);
@@ -51,16 +51,16 @@ main()
 		case 1:
 			system("cls");
 			gotoxy(30, 5);
-			cout << "Volumen del cilindro";
+			cout << "Cylinder volume";
 			gotoxy(20, 8);
-			cout << "Teclee el radio:";
+			cout << "Type the radius:";
 			cin >> r;
 			r2 = pow(r, 2);
 			gotoxy(20, 10);
-			cout << "Teclee la altura:";
+			cout << "Type the height:";
 			cin >> h;
 			gotoxy(23, 15);
-			cout << "El volument del cilindro con radio " << r << " es:" << (pi * r2 * h);
+			cout << "The volume of the cylinder with radius " << r << " is:" << (pi * r2 * h);
 			gotoxy(25, 19);
 			cout << "Press a key to return to the menu";
 			getch();
@@ -68,16 +68,16 @@ main()
 		case 2:
 			system("cls");
 			gotoxy(30, 5);
-			cout << "Volumen de un cono";
+			cout << "Volume of a cone";
 			gotoxy(20, 8);
-			cout << "Teclee el valor del radio:";
+			cout << "Type the radius:";
 			cin >> r;
 			gotoxy(20, 10);
-			cout << "Teclee el valor de la altura:";
+			cout << "Type the height:";
 			cin >> h;
 			r2 = pow(r, 2);
 			gotoxy(23, 15);
-			cout << "El volumen del cono es:" << ((pi * r2 * h) / 3);
+			cout << "The volume of the cone is:" << ((pi * r2 * h) / 3);
 			gotoxy(25, 19);
 			cout << "Press a key to return to the menu";
 			getch();
@@ -85,13 +85,13 @@ main()
 		case 3:
 			system("cls");
 			gotoxy(30, 5);
-			cout << "Volumen de la esfera";
+			cout << "Sphere volume";
 			gotoxy(20, 8);
-			cout << "Teclee el valor del radio:";
+			cout << "Type the radius:";
 			cin >> r;
 			r3 = pow(r, 3);
 			gotoxy(23, 15);
-			cout << "El volumen de la esfera es:" << ((4 * pi * r3) / 3);
+			cout << "The volume of the sphere is:" << ((4 * pi * r3) / 3);
 			gotoxy(25, 19);
 			cout << "Press a key to return to the menu";
 			getch();
@@ -99,14 +99,14 @@ main()
 		case 4:
 			system("cls");
 			gotoxy(30, 5);
-			cout << "Volumen del octaedro";
+			cout << "Volume of the octahedron";
 			gotoxy(20, 8);
-			cout << "Teclee el valor de a:";
+			cout << "Type the value of (a):";
 			cin >> a;
 			oc = sqrt(2);
 			es = pow(a, 3);
 			gotoxy(23, 15);
-			cout << "El volumen del octaedro es:" << ((oc / 3) * es);
+			cout << "The volume of the octahedron is:" << ((oc / 3) * es);
 			gotoxy(25, 19);
 			cout << "Press a key to return to the menu";
 			getch();

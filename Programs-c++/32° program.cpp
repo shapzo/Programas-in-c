@@ -33,11 +33,11 @@ main()
 {
 	int lista[20] = {100, 105, 120, 176, 187, 201, 456, 789, 182, 258, 772, 254, 221, 326, 321, 540, 478, 222, 852, 654};
 	int i;
-	cout << "lista original \n";
+	cout << "Original list \n";
 	imprimirlista(lista, 20);
 	ordseleccion(lista, 20);
 	cout << endl
-		 << "lista ordenada" << endl;
+		 << "Ordered list" << endl;
 	cout << endl;
 	imprimirlista(lista, 20);
 	getch();

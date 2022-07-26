@@ -32,10 +32,10 @@ void imprimirlista(int a[], int n)
 main()
 {
 	int lista[8] = {45, 12, 39, 18, 1, 4, 23, 74};
-	cout << "lista original \n";
+	cout << "Original list \n";
 	imprimirlista(lista, 8);
 	burbuja(lista, 8);
 	cout << endl
-		 << "lista ordenada" << endl;
+		 << "Ordered list" << endl;
 	imprimirlista(lista, 8);
 }

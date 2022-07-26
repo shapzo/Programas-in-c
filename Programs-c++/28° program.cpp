@@ -27,10 +27,10 @@ main(void)
 {
 	int lista[14] = {17, 21, 7, 3, 13, 20, 6, 4, 1, 18, 19, 25, 30, 5};
 	int i;
-	cout << "lista original \n";
+	cout << "Original list \n";
 	imprimirlista(lista, 14);
 	ordintercambio(lista, 14);
 	cout << endl
-		 << "lista ordenada" << endl;
+		 << "Ordered list" << endl;
 	imprimirlista(lista, 14);
 }

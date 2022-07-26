@@ -29,15 +29,15 @@ void imprimirlista(int a[], int n)
 	cout << endl;
 }
 
-main()
+int main()
 {
 	int lista[15] = {30, 35, 21, 1, 4, 6, 8, 3, 11, 22, 10, 21, 30, 10, 15};
 	int i;
-	cout << "lista original \n";
+	cout << "Original list \n";
 	imprimirlista(lista, 15);
 	ordseleccion(lista, 15);
 	cout << endl
-		 << "lista ordenada" << endl;
+		 << "Ordered list" << endl;
 	cout << endl;
 	imprimirlista(lista, 15);
 	getch();
