@@ -49,18 +49,19 @@ In these programs it is about accommodating the letters to a desired word
 
 - Program 21: Program for trigonometric functions, sine, cosine and tangent.
 - Program 22: Program that calculates the area of a circle, trapezoid and ellipse.
-- Program 23:
-- Program 24:
-- Program 25:
-- Program 26:
-- Program 27:
-- Program 28:
-- Program 29:
-- Program 30:
-- Program 31:
-- Program 32:
-- Program 33:
-- Program 34:
+- Program 23: Program that calculates the volumes of geometric figures.
+- Program 24: Area and perimeter of the triangle, equation.
+- Program 25: Calculates the sine cosine and tangent.
+- Program 26: Create character triangles.
+
+- Program 27: Sort the numbers to print the figure on the screen: (3, 4, 6, 7, 8, 9)
+- Program 28: Sort the numbers to print the figure on the screen: (1, 3, 4, 5, 6, 7, 13, 17, 18, 19, 20, 21, 25, 30)
+- Program 29: Sort the numbers to print the figure on the screen: (1, 2, 4, 11, 15, 18, 21, 30, 39, 42, 44, 55, 98)
+- Program 30: Sort the numbers to print the figure on the screen: (7, 8, 10, 10, 11, 21, 22, 31, 32, 33, 42, 44, 52, 58)
+- Program 31: Sort the numbers to print the figure on the screen: (1, 3, 4, 6, 8, 10, 10, 11, 15, 21, 21, 22, 30, 30, 35)
+- Program 32: Sort the numbers to print the figure on the screen: (100, 105, 120, 176, 182, 187, 201, 221, 222, 254, 258, 321, 326, 456, 478, 540, 654, 772, 789, 852)
+- Program 33: Sort the numbers to print the figure on the screen: (10, 45, 50, 62, 84)
+- Program 34: Sort the numbers to print the figure on the screen: (1, 4, 12, 18, 23, 39, 45, 74)
 
 ## For windows environments
 
