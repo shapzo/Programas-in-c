@@ -20,7 +20,6 @@ This program is about storing numbers in memory.
 For this program, you must first have a **txt** file and in it you must have numbers with a range from -30 to 30; already after the execution is finished, the program will create an output file with the results.
 An example file is left so that you can see the operation of the program, the file is called **input.txt**
 
-
 ## Author
 
 - [@rodrigo](https://github.com/shapzo) 🐾 ♥
