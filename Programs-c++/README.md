@@ -40,12 +40,14 @@ In these programs it is about accommodating the numbers to a desired figure.
 - Program 15: Sort the numbers to print the figure on the screen: (18, 100, 42, 50, 5, 20, 42)
 - Program 16: Sort the numbers to print the figure on the screen: (30, 1, 5, 5, 8, 17, 6, 40, 0, 10, 26, 40, 9)
 
-In these programs it is about accommodating the letters to a desired word
+**In these programs it is about accommodating the letters to a desired word**
 
 - Program 17: Order the letters to print the word on the screen: popocatepetl 🌋
 - Program 18: Order the letters to print the word on the screen: Estacionamiento 
 - Program 19: Order the letters to print the word on the screen: Desoxirribonucleico
-- Program 20: Order the letters to print the word on the screen: Programacion avanzada4
+- Program 20: Order the letters to print the word on the screen: Programacion avanzada
+
+**Area and function calculation programs**
 
 - Program 21: Program for trigonometric functions, sine, cosine and tangent.
 - Program 22: Program that calculates the area of a circle, trapezoid and ellipse.
@@ -53,6 +55,8 @@ In these programs it is about accommodating the letters to a desired word
 - Program 24: Area and perimeter of the triangle, equation.
 - Program 25: Calculates the sine cosine and tangent.
 - Program 26: Create character triangles.
+
+Sort method programs
 
 - Program 27: Sort the numbers to print the figure on the screen: (3, 4, 6, 7, 8, 9)
 - Program 28: Sort the numbers to print the figure on the screen: (1, 3, 4, 5, 6, 7, 13, 17, 18, 19, 20, 21, 25, 30)
